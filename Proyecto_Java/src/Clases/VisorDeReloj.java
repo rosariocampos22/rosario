@@ -20,7 +20,7 @@ public class VisorDeReloj {
     }
     private void actualizarVisor()
     {
-        cadVisor = horas.getValorDelVisor() + ":" + minutos.getValorDelVisor(); 
+        cadVisor = horas.getValorDelVisor() + ";" + minutos.getValorDelVisor(); 
     }
 	
     public void ponerEnHora(int hora, int minuto)
